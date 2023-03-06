@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.section1{
+    background-color: hsla(234, 85%, 45%, 0.8);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    margin-top: 0;
+    font-size: .9em;
+    color: hsla(0, 0%, 100%, 0.7);
+    padding-bottom: 15px;
+}
+
+.number{
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%;
+    margin-left: 60px;
+}
+.num1{
+    font-size: 40px;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.num2{
+    color:hsl(241, 100%, 89%);
+    font-size: .6em;
+}
+
+h5{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    padding-top: 15px;
+}
+.great-word{
+    color: hsla(0, 0%, 100%, 0.4);
+    font-size: 14px;
+}
+
+.section2{
+    padding: 20px;
+    
+}
+
+h6{
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    padding-bottom: 5px;
+}
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: .8em;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+.react-word{
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    font-size: .77em;
+}
+.react-num{
+    margin-top: -22px;
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: .8em;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+.mem-word{
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+    font-size: .77em;
+}
+.mem-num{
+    margin-top: -20px;
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: .8em;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+.verb-word{
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+    font-size: .77em;
+}
+.verb-num{
+    margin-top: -20px;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: .8em;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+.visual-word{
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+    font-size: .77em;
+}
+.visual-num{
+    margin-top: -20px;
+}
+
+.summ{
+    font-size: .7em;
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.summ2{
+    font-size: .7em;
+    color:hsla(224, 30%, 27%, 0.5);
+    font-weight: 700;
+}
+
+.button{
+    border-radius: 30px;   
+    background-color: hsl(224, 30%, 27%);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: .6em;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
