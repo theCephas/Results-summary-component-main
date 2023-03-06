@@ -58,8 +58,8 @@ h5{
 }
 
 .section2{
-    padding: 20px;
-    
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 h6{
@@ -155,5 +155,32 @@ h6{
     padding: 10px 20px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 500px) {
+    .the-work{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+        margin: 90px auto;
+
+    }
+    .section1{
+        width: 300px;
+        padding-top: 0px;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    .section2{
+        width: 300px;
+        background-color: hsl(0, 0%, 100%);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        
+        box-shadow: 20px 11px 18px 0px hsl(240, 13%, 95%);
+    }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
