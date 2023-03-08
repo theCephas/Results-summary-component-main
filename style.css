@@ -56,12 +56,14 @@ h5{
 }
 
 .section2{
-    padding: 30px;
+    padding: 25px;
+    padding-top: 10px;
     background-color: hsl(0, 0%, 100%);
 }
 
 h6{
     font-weight: 800;
+    font-size: .68em;
     color: hsl(224, 30%, 27%);
     padding-bottom: 5px;
 }
@@ -158,9 +160,8 @@ h6{
     .the-work{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 90px;
-        
+        place-content: center;
+        min-height: 100vh;
     }
     .section1{
         width: 300px;
@@ -180,5 +181,5 @@ h6{
     }
 }
 
-.attribution { font-size: 11px; text-align: center; padding-top: 30px;}
+.attribution { font-size: 11px; text-align: center; padding-top: 0px;}
 .attribution a { color: hsl(228, 45%, 44%); }
